@@ -5,4 +5,11 @@ This repository provides code for engagement classification in human-robot inter
 
 ![Engagement Classification Process](figure1.png)
 
-Figure 1: The engagement classification process using Monte Carlo Multi-Trial Sampling and Single-Trial CoT Reasoning. Human-labeled annotations were used for comparison, and K-Means clustering was applied for analysis.
+## Running the Engagement Classification Script
+
+To run the engagement classification model, execute the following command:
+
+```bash
+python3 engagement_classifcation_LLM_merge.py
+
+python3 engagement_classifcation_LLM_merge_cot.py
